@@ -2,11 +2,13 @@
 using namespace std;
 
 // Función recursiva para calcular el factorial
-long long factorial(int n) {
+long long factorial(int n)
+{
     // CASO BASE:
     // El factorial de 0 y de 1 es 1.
     // Aquí termina la recursión.
-    if (n == 0 || n == 1) {
+    if (n == 0 || n == 1)
+    {
         return 1;
     }
 
@@ -16,17 +18,21 @@ long long factorial(int n) {
     return n * factorial(n - 1);
 }
 
-int main() {
+int main()
+{
     int numero;
 
     cout << "Introduce un numero entero no negativo: ";
     cin >> numero;
 
     // Verificar que no sea negativo
-    if (numero < 0) {
+    if (numero < 0)
+    {
         cout << "Error: el factorial no existe para numeros negativos." << endl;
-    } else {
-        cout << "El factorial de " << numero << " es: " 
+    }
+    else
+    {
+        cout << "El factorial de " << numero << " es: "
              << factorial(numero) << endl;
     }
 
