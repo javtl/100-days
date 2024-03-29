@@ -1,0 +1,42 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica;
+    color: white;
+    background: black;
+}
+.container{
+    max-width: 98rem;
+    margin: 2rem auto;
+    padding: 0px 2rem ;
+
+}
+.header{
+    padding: 2rem;
+    margin: 2rem 0px;
+    text-align: center;
+}
+.header > .title{
+    margin-bottom: 1rem;
+}
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 8px auto; 
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 5 rem;
+}
+.tribute image{
+    max-width: 100%;
+}
