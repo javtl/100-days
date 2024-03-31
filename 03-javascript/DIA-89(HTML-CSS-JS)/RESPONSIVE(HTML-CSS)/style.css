@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+    font-family: century-bold;
+}
+body{
+    background-color: #ededed;   
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex: 1;
+    padding: 25px;
+    min-width: 250px;
+    margin-bottom: 0px;
+    background-color: white;
+    margin: 20px;
+
+}
+.in-flex first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: white;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div{
+    padding: 25px;
+    background-color: white;
+    margin: 20px;
+    margin-bottom: 0px;
+
+}
