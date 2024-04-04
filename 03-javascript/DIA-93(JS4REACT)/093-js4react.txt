@@ -1,0 +1,93 @@
+-----funciones
+	function hello(){
+	console.log()
+	}
+	function helloworld(){
+	return 'hola mundo' //puede devolver todo tipo de valor
+	}
+	funcion retorna otra funcion
+
+------Objetos
+	const user = {
+	name = 'javier',
+	age = 30,
+	
+	}
+->	-Objetos - acceder a un valor:
+	console.log(user.name)
+	console.log(user.age)
+
+-Shorthand property name:
+	const name = 'laptop',
+	const price = 1000,
+	
+	const neProduct = {
+	name: , 
+	price: ,
+	}
+
+->	console.log(newProduct)
+
+------Manipulacion del DOM - DocumentObjectModel
+	document.createElement('crear etiquetas')
+	
+const title = document.createElement('h1')
+title.innerText = 'Hola mundo desde js'
+const button = document.createElement ('button')
+button.innerText = 'click'
+
+document.body.append(title)
+document.body.append(button)
+
+-> 	event handler:
+title.innerText = 'texto actualizado'
+alert('se realizo un click')
+
+
+-----objetos como parametros
+
+const user ={
+name: 'joe',
+age: 30
+}
+function printInfo(user){
+return '<h1>hola' + user.name + '</h1>'
+}
+console.log(printInfo(user))
+
+document.body.innerHTML = printInfo(user)
+
+------String literals
+
+const background = 'red'
+const color = 'white'
+const result = '${background}${color}'
+
+console.log(result)
+
+const button = document.createElement("button");
+button.innerText = "click me";
+button.style = 'background: ; color: white;'
+const isAuthorized = true;
+button.addEventListener("click",() =>{
+	if(isAuthorized){
+	return alert("esta autorizado");	
+	}
+	alert("no esta autorizado");
+});
+
+
+document.body.append(button);
+
+
+
+---metodos de array
+
+const name.
+map names.map
+
+filter names.filter
+ 
+foreach  names.foreach
+
+concat names.concat
